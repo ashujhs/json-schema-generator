@@ -1,6 +1,7 @@
 # Json Schema Generator
 
-
+You may need this to share your schema with downstream or other systems. And you can generate directly from your code base.
+This plugin works with your existing java codes and provide the JSON schema from POJO directly. 
 
 Add below snippet in your project to generate JSON schema
 ```xml
@@ -42,13 +43,13 @@ Add below snippet in your project to generate JSON schema
 
 ```
 
-#### How to execute
+### How to execute
 Once you will run your application's maven compile target then, it will generate the .json file in our output directory.
 
 
-####Useful commands -
+#### Useful commands -
 
-######Describe Help
+###### Describe Help
 
 mvn help:describe -DgroupId=com.ash.jsonschema -DartifactId=jsonschema-maven-plugin
 
