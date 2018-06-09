@@ -51,11 +51,13 @@ Once you will run your application's maven compile target then, it will generate
 
 ###### Describe Help
 
+```
 mvn help:describe -DgroupId=com.ash.jsonschema -DartifactId=jsonschema-maven-plugin
+```
 
 
 
-
-######Describe Goal Help
-
+###### Describe Goal Help
+```
 mvn help:describe -DgroupId=com.ash.jsonschema -DartifactId=jsonschema-maven-plugin -Dgoal=generateSchema -Ddetail
+```
