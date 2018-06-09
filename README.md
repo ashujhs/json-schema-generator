@@ -1,6 +1,6 @@
 # Json Schema Generator
 
-You may need this to share your schema with downstream or other systems. And you can generate directly from your code base.
+You may need this to share your schema with downstream or other systems because there are plugin to generate the classes from schema but not vice versa.
 This plugin works with your existing java codes and provide the JSON schema from POJO directly. 
 
 Add below snippet in your project to generate JSON schema
